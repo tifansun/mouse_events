@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    height: 100hvh;
+}
+div {
+    background: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 auto;
+    display: table;
+}
+
+#evento_detectado {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+}
+lottie-player{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
