@@ -10,7 +10,7 @@ div.addEventListener("mousedown", function (e) {
 
 div.addEventListener("mousemove", function (e) {
     div.style.background = "#d64161#d64161";
-    evento_detectado.innerHTML = "mause move";
+    evento_detectado.innerHTML = "mouse move";
 
     if (mouse_event == "clicked") {
         evento_detectado.innerHTML = "mouse down <br>+<br> mouse move";
